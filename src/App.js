@@ -1,9 +1,10 @@
 import React from 'react';
-
-function App() {
-  return (
-    <h1>Hello world!</h1>
-  );
-}
+import Calculator from './Calculator';
+const App = () => (
+  <div className="App">
+    <h1>Calculator</h1>
+    <Calculator/>
+  </div>
+);
 
 export default App;
